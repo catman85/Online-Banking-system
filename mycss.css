@@ -1,0 +1,29 @@
+body {
+    background-color:#90CAF9;
+    font-family:verdana;
+}
+.wrapper{
+
+    width:95%;
+    margin:0px auto;
+
+}
+
+.left_panel{
+  margin:10px;
+}
+
+.right_panel{
+    margin:10px;
+    padding: 0px;
+    margin-bottom:: 0px;
+}
+.button1{
+    margin-top: 10px;
+}
+.button_cust{
+  margin-left: 500px;
+}
+.button_cust2{
+  margin-left: 450px;
+}
