@@ -9,7 +9,7 @@ The original project has nothing to do with phishing or any other malicious purp
 # Online-Banking-system
 Online Banking System in PHP & MySQL.         
 
-Screenshots and description: http://hackwhiz.com/2015/02/online-banking-system-php-mysql/ 
+Screenshots and description: http://hackwhiz.com/2015/02/online-banking-system-php-mysql/
 
 The project’s primary goals consist of:
 
@@ -70,7 +70,7 @@ Database:
 >A table for cheque book and ATM requests is included.
 
 
-This project is divided into three hierarchical parts: 
+This project is divided into three hierarchical parts:
 
 >The index page for the customer login.
 
@@ -89,12 +89,16 @@ Usage:
 4.change the password in _inc/dbconn.php file accordingly.
 
 5.visit localhost/banking (customer index page)
+                                                kostas@gmail.com kostas
+                                                elenh@gmail.com elenh
+												admin admin
 
-6.visit localhost/banking/adminlogin.php (admin login)
+6.visit localhost/banking/adminlogin.php (admin login) admin admin
 
-7.visit localhost/banking/staff_login.php (staff login)
+7.visit localhost/banking/staff_login.php (staff login) kul@gmail.com wew
 
 Note: The customer passwords are hashed and stored in the database. You will not be able to see it.
-The password is 'rash' for almost all the customers,just in case if you want to login with the pre added customer. 
+The password is 'rash' for almost all the customers,just in case if you want to login with the pre added customer.
 
-
+### New Look with Bootstrap
+![Imgur](https://i.imgur.com/7g8qTBa.png)

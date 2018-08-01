@@ -2,8 +2,8 @@
 <?php
 include '_inc/dbconn.php';
 $sql="SELECT * FROM `admin` WHERE id=1";
-$result=  mysql_query($sql) or die(mysql_error());
-$rws=  mysql_fetch_array($result);
+$result=  mysqli_query($sql) or die(mysqli_error());
+$rws=  mysqli_fetch_array($result);
 ?>
 <html>
     <head>
@@ -12,11 +12,11 @@ $rws=  mysql_fetch_array($result);
     </head>
     <body>
         <div class="wrapper">
-            <div class="header">           
-                
+            <div class="header">
+
             </div>
             <div class="contentsection">
-                
+
                 <form action="alter.php" method="POST" enctype="multipart/form-data">
             <table align="center" border="21" class="table">
                 <tr>
@@ -107,16 +107,16 @@ $rws=  mysql_fetch_array($result);
                 </tr>
             </table>
         </form>
-                
-                
-                
+
+
+
             </div>
             <div class="footer">
-                
-                
-                
-                
-                
+
+
+
+
+
             </div>
         </div>
     </body>
