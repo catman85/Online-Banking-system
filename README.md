@@ -88,9 +88,10 @@ Usage:
 
 4.change the password in _inc/dbconn.php file accordingly.
 
-5.visit localhost/banking (customer index page) 
+5.visit localhost/banking (customer index page)
                                                 kostas@gmail.com kostas
                                                 elenh@gmail.com elenh
+												admin admin
 
 6.visit localhost/banking/adminlogin.php (admin login) admin admin
 
@@ -98,3 +99,6 @@ Usage:
 
 Note: The customer passwords are hashed and stored in the database. You will not be able to see it.
 The password is 'rash' for almost all the customers,just in case if you want to login with the pre added customer.
+
+### New Look with Bootstrap
+![Imgur](https://i.imgur.com/7g8qTBa.png)
